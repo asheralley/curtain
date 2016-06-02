@@ -1,5 +1,7 @@
 body {
+  width:100%;
   font-family: sans-serif;
+  background-color:black;
 }
 
 h1, h2 {
@@ -72,7 +74,6 @@ h1, h2 {
   background: #333;
   color: #fff;
   margin: 0 auto;
-  padding: 1rem 0;
   position: absolute;
   text-align: center;
   z-index: 1;
@@ -88,11 +89,28 @@ h1, h2 {
 }
 
 .cta {
+  letter-spacing:.5em;
   position: absolute;
   clear: both;
   z-index: 100;
+  margin-left:20px;
+  margin-top:50px;
+  font-size:4.3em;
+  font-family: sans-serif;
+
 }
 
-#front{
-  position:absolute;
+#dodo{
+  font-size:5em;
+  font-family: sans-serif;
+  text-align:center;
+  margin-top:50px;
+  letter-spacing:1em;
 }
+
+
+
+
+
+
+
